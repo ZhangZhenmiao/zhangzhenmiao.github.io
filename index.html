@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zhenmiao Zhang | Academic Homepage</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="header-content">
+                <div class="header-text">
+                    <h1>Zhenmiao Zhang</h1>
+                    <p class="subtitle">
+                        Postdoctoral Fellow, University of California, San Diego<br>
+                        <span class="email">zhz142@ucsd.edu</span>
+                    </p>
+                </div>
+                <div class="header-photo">
+                    <img src="photo.jpg" alt="Zhenmiao Zhang portrait">
+                </div>
+            </div>
+        </header>
+
+        <!-- About -->
+        <section id="about">
+            <h2>About</h2>
+            <p>
+                I am currently a postdoctoral scholar in the Department of Computer Science and Engineering at UC San
+                Diego,
+                fortunate to be advised by <a href="https://bioalgorithms.ucsd.edu/" target="_blank">Prof. Pavel A.
+                    Pevzner</a>.
+                I received my Ph.D. in Computer Science from Hong Kong Baptist University, where I was honored to be
+                supervised by
+                <a href="https://www.comp.hkbu.edu.hk/v1/?page=profile&id=ericluzhang" target="_blank">Prof. Eric Lu
+                    Zhang</a>.
+                From 2023 to 2025, I worked as a visiting scholar in Prof. Pevzner’s lab at UC San Diego.
+                Before that, I earned dual Bachelor’s degrees in Engineering (Computer Science) and Science (Applied
+                Mathematics)
+                from Renmin University of China.
+            </p>
+
+            <p>
+                My research focuses on developing bioinformatics algorithms and AI-driven tools for genome assembly,
+                comparative genomics, and metagenomics, with the broader goal of advancing our understanding of
+                complex biological and evolutionary processes.
+            </p>
+            <p>
+                [<a href="https://scholar.google.com/citations?user=oOSSMUYAAAAJ&hl=en" target="_blank">Google
+                    Scholar</a>] [<a href="CV-zhenmiao.pdf" target="_blank">CV</a>]
+            </p>
+        </section>
+
+        <!-- Publications -->
+        <section id="publications">
+            <h2>Selected Publications</h2>
+
+            <div class="pub-year">2025</div>
+
+            <div class="publication">
+                <div class="pub-title">
+                    <a href="#" class="paper-title">CompleteBin: A transformer-based framework unlocks microbial dark
+                        matter through improved short contig binning</a>
+                </div>
+                <div class="pub-authors">
+                    Bohao Zou<sup>†</sup>, <strong>Zhenmiao Zhang</strong><sup>†</sup> (Joint First Author), Xiaohan
+                    Wang<sup>†</sup>, Rong
+                    Tao, Nianzhen Gu,
+                    Karsten
+                    Kristiansen, Mo Han, Lu
+                    Zhang
+                </div>
+                <div class="pub-venue"><em>Under Review</em> <span class="pub-links"><a
+                            href="https://www.biorxiv.org/content/10.1101/2025.04.20.649691v3"
+                            target="_blank">[PDF]</a></span></div>
+                <button class="abstract-toggle">Abstract ▸</button>
+                <div class="abstract">
+                    Metagenomic binning is crucial for reconstructing microbial genomes from metagenomic sequencing
+                    samples. However, existing tools struggle in complex communities where short, low-abundance contigs
+                    predominate, thereby limiting the recovery of complete metagenome-assembled genomes (MAGs) and the
+                    identification of novel functions. Here, we introduce CompleteBin, a Transformer-based framework
+                    that integrates contig sequence context, pre-trained taxonomic embeddings from a genome language
+                    model, and dynamic contrastive learning to bin short contigs robustly. Across CAMI II datasets,
+                    CompleteBin increased near-complete MAG recovery by 38.5% over leading methods like COMEBin. Across
+                    diverse real-world datasets (marine, freshwater, plant-associated, cold seep sediment, and human
+                    gut), it achieved a 57.4% improvement on average. Applying CompleteBin to six cold seep sediment
+                    samples uncovered 129 strain-level genome bins across 30 phyla, including 13 phyla undetected by
+                    other tools, and taxonomically assigned 90,405 genes (32.1% of total), revealing previously unknown
+                    species in nitrogen and sulfur cycling. CompleteBin unlocks microbial dark matter in diverse
+                    environments, advancing our understanding of microbial ecology and biogeochemical processes.
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-title">
+                    <a href="#" class="paper-title">Exploring Population Differences in the Human Gut Microbiome: from
+                        Microbial Abundance to Single Nucleotide Polymorphisms</a>
+                </div>
+                <div class="pub-authors">
+                    Jingjing Wang<sup>†</sup>, <strong>Zhenmiao Zhang</strong><sup>†</sup> (Joint First Author), Yang
+                    Chen, Xi Zhou,
+                    Jiaxin Xiang, Chao Yang, Dmitry A Rodionov,
+                    Andrei L Osterman, Qinwei Qiu, Yusheng Deng, Yanmin Liu, Chengrui Wang, Xiaoxiao Shang, Li Huang,
+                    Chen Sun, Jianwen Guo, Zhimin Yang, Lijuan Han, Lixiang Zhai, Zhaoxiang Bian, Wei Jia, Xiaodong
+                    Fang, Lu Zhang
+                </div>
+                <div class="pub-venue"><em>Under Review</em> <span class="pub-links"><a
+                            href="https://www.biorxiv.org/content/10.1101/2025.04.10.648293v1.abstract"
+                            target="_blank">[PDF]</a></span></div>
+                <button class="abstract-toggle">Abstract ▸</button>
+                <div class="abstract">
+                    The human gut microbiota exhibits significant diversity across populations, influenced by factors
+                    such as geography, diet, and lifestyle, particularly between the Han Chinese and non-Chinese
+                    populations. While previous studies have predominantly focused on the taxonomic abundance of the gut
+                    microbiome, the impact of single nucleotide polymorphisms (SNPs) in driving population-specific
+                    differences remains largely underexplored.<br>
+
+                    In this study, we systematically investigated gut microbial differences between the Han Chinese and
+                    non-Chinese populations using the Human Gut Microbiome Reference Genome Catalog (HGMRGC). HGMRGC
+                    includes 271,480 non-redundant genomes from 5,785 prokaryotic species, which was generated by
+                    metagenomic sequencing data from 9,320 publicly available samples across 22 countries and 3,584
+                    newly sequenced samples from Han Chinese individuals across 29 provinces and regions in China.<br>
+
+                    We observed geography was the primary driver of microbial variation of abundance and SNPs. We
+                    identified 625 novel population-specific genome clusters from HGMRGC with functional differences in
+                    carbohydrate utilization and 126 species exhibiting distinct prevalence related to vitamin
+                    biosynthesis, antibiotic resistance, and carbohydrate metabolism. Beta diversity analysis
+                    highlighted significant inter-population differences in both microbial abundance and SNPs, while
+                    alpha diversity analysis revealed that non-Chinese populations exhibited higher diversity in
+                    microbial abundance, and Han Chinese populations displayed greater diversity in SNPs. These results
+                    provide valuable insights into population-specific microbial diversity, laying the groundwork for
+                    future research on its functional and health implications.
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-title">
+                    <a href="#" class="paper-title">Complete sequencing of ape genomes</a>
+                </div>
+                <div class="pub-authors">
+                    <strong>Zhenmiao Zhang</strong> and the T2T Consortium
+                </div>
+                <div class="pub-venue"><em>Nature</em> <span class="pub-links"><a
+                            href="https://www.nature.com/articles/s41586-025-08816-3" target="_blank">[PDF]</a></span>
+                </div>
+                <button class="abstract-toggle">Abstract ▸</button>
+                <div class="abstract">
+                    The most dynamic and repetitive regions of great ape genomes have traditionally been excluded from
+                    comparative studies1,2,3. Consequently, our understanding of the evolution of our species is
+                    incomplete.
+                    Here we present haplotype-resolved reference genomes and comparative analyses of six ape species:
+                    chimpanzee, bonobo, gorilla, Bornean orangutan, Sumatran orangutan and siamang. We achieve
+                    chromosome-level contiguity with substantial sequence accuracy (&lt1 error in 2.7 megabases) and
+                    completely sequence 215 gapless chromosomes telomere-to-telomere. We resolve challenging regions,
+                    such as the major histocompatibility complex and immunoglobulin loci, to provide in-depth
+                    evolutionary insights. Comparative analyses enabled investigations of the evolution and diversity of
+                    regions previously uncharacterized or incompletely studied without bias from mapping to the human
+                    reference genome. Such regions include newly minted gene families in lineage-specific segmental
+                    duplications, centromeric DNA, acrocentric chromosomes and subterminal heterochromatin. This
+                    resource serves as a comprehensive baseline for future evolutionary studies of humans and our
+                    closest living ape relatives. </div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-title">
+                    <a href="#" class="paper-title">GenomeDecoder: inferring segmental duplications in highly repetitive
+                        genomic regions</a>
+                </div>
+                <div class="pub-authors">
+                    <strong>Zhenmiao Zhang</strong>*, Ishaan Gupta, Pavel A Pevzner
+                </div>
+                <div class="pub-venue"><em>Bioinformatics</em> <span class="pub-links"><a
+                            href="https://academic.oup.com/bioinformatics/article/41/2/btaf058/8002818"
+                            target="_blank">[PDF]</a></span></div>
+                <button class="abstract-toggle">Abstract ▸</button>
+                <div class="abstract">
+                    <strong>Motivation</strong>
+                    The emergence of the ‘telomere-to-telomere’ genomics brought the challenge of identifying segmental
+                    duplications (SDs) in complete genomes. It further opened a possibility for identifying the
+                    differences
+                    in SDs across individual human genomes and studying the SD evolution. These newly emerged challenges
+                    require algorithms for reconstructing SDs in the most complex genomic regions that evaded all
+                    previous
+                    attempts to analyze their architecture, such as rapidly evolving immunoglobulin loci.<br>
+
+                    <strong>Results</strong>
+                    We describe the GenomeDecoder algorithm for inferring SDs and apply it to analyzing genomic
+                    architectures of various loci in primate genomes. Our analysis revealed that multiple
+                    duplications/deletions led to a rapid birth/death of immunoglobulin genes within the human
+                    population
+                    and large changes in genomic architecture of immunoglobulin loci across primate genomes. Comparison
+                    of
+                    immunoglobulin loci across primate genomes suggests that they are subjected to diversifying
+                    selection.<br>
+
+                    <strong>Availability and implementation</strong>
+                    GenomeDecoder is available at https://github.com/ZhangZhenmiao/GenomeDecoder. The software version
+                    and
+                    test data used in this paper are uploaded to https://doi.org/10.5281/zenodo.14753844.
+                </div>
+            </div>
+
+            <div class="pub-year">2024</div>
+
+            <div class="publication">
+                <div class="pub-title">
+                    <a href="#" class="paper-title">Exploring high-quality microbial genomes by assembling short-reads
+                        with long-range connectivity</a>
+                </div>
+                <div class="pub-authors">
+                    <strong>Zhenmiao Zhang</strong>, Jin Xiao, Hongbo Wang, Chao Yang, Yufen Huang, Zhen Yue, Yang Chen,
+                    Lijuan Han,
+                    Kejing Yin, Aiping Lyu, Xiaodong Fang, Lu Zhang
+                </div>
+                <div class="pub-venue"><em>Nature Communications</em> <span class="pub-links"><a
+                            href="https://www.nature.com/articles/s41467-024-49060-z" target="_blank">[PDF]</a></span>
+                </div>
+                <button class="abstract-toggle">Abstract ▸</button>
+                <div class="abstract">
+                    Although long-read sequencing enables the generation of complete genomes for unculturable microbes,
+                    its high cost limits the widespread adoption of long-read sequencing in large-scale metagenomic
+                    studies. An alternative method is to assemble short-reads with long-range connectivity, which can be
+                    a cost-effective way to generate high-quality microbial genomes. Here, we develop Pangaea, a
+                    bioinformatic approach designed to enhance metagenome assembly using short-reads with long-range
+                    connectivity. Pangaea leverages connectivity derived from physical barcodes of linked-reads or
+                    virtual barcodes by aligning short-reads to long-reads. Pangaea utilizes a deep learning-based read
+                    binning algorithm to assemble co-barcoded reads exhibiting similar sequence contexts and abundances,
+                    thereby improving the assembly of high- and medium-abundance microbial genomes. Pangaea also
+                    leverages a multi-thresholding algorithm strategy to refine assembly for low-abundance microbes. We
+                    benchmark Pangaea on linked-reads and a combination of short- and long-reads from simulation data,
+                    mock communities and human gut metagenomes. Pangaea achieves significantly higher contig continuity
+                    as well as more near-complete metagenome-assembled genomes (NCMAGs) than the existing assemblers.
+                    Pangaea also generates three complete and circular NCMAGs on the human gut microbiomes.
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-title">
+                    <a href="#" class="paper-title">A multi-modal deep language model for contaminant removal from
+                        metagenome-assembled genomes</a>
+                </div>
+                <div class="pub-authors">
+                    Bohao Zou, Jingjing Wang, Yi Ding, <strong>Zhenmiao Zhang</strong>, Yufen Huang, Xiaodong Fang, Ka
+                    Chun Cheung, Simon
+                    See, Lu Zhang
+                </div>
+                <div class="pub-venue"><em>Nature Machine Intelligence</em> <span class="pub-links"><a
+                            href="https://www.nature.com/articles/s42256-024-00908-5" target="_blank">[PDF]</a></span>
+                </div>
+                <button class="abstract-toggle">Abstract ▸</button>
+                <div class="abstract">
+                    Metagenome-assembled genomes (MAGs) offer valuable insights into the exploration of microbial dark
+                    matter using metagenomic sequencing data. However, there is growing concern that contamination in
+                    MAGs may substantially affect the results of downstream analysis. Current MAG decontamination tools
+                    primarily rely on marker genes and do not fully use the contextual information of genomic sequences.
+                    To overcome this limitation, we introduce Deepurify for MAG decontamination. Deepurify uses a
+                    multi-modal deep language model with contrastive learning to match microbial genomic sequences with
+                    their taxonomic lineages. It allocates contigs within a MAG to a MAG-separated tree and applies a
+                    tree traversal algorithm to partition MAGs into sub-MAGs, with the goal of maximizing the number of
+                    high- and medium-quality sub-MAGs. Here we show that Deepurify outperformed MDMclearer and MAGpurify
+                    on simulated data, CAMI datasets and real-world datasets with varying complexities. Deepurify
+                    increased the number of high-quality MAGs by 20.0% in soil, 45.1% in ocean, 45.5% in plants, 33.8%
+                    in freshwater and 28.5% in human faecal metagenomic sequencing datasets.
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-title">
+                    <a href="#" class="paper-title">LRTK: a platform agnostic toolkit for linked-read analysis of both
+                        human genome and metagenome</a>
+                </div>
+                <div class="pub-authors">
+                    Chao Yang, <strong>Zhenmiao Zhang</strong><sup>†</sup> (Joint First Author), Yufen Huang, Xuefeng
+                    Xie, Herui Liao, Jin Xiao, Werner Pieter Veldsman,
+                    Kejing Yin, Xiaodong Fang, Lu Zhang
+                </div>
+                <div class="pub-venue"><em>GigaScience</em> <span class="pub-links"><a
+                            href="https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giae028/7692299"
+                            target="_blank">[PDF]</a></span>
+                </div>
+                <button class="abstract-toggle">Abstract ▸</button>
+                <div class="abstract">
+                    <strong>Background</strong><br>
+                    Linked-read sequencing technologies generate high-base quality short reads that contain
+                    extrapolative information on long-range DNA connectedness. These advantages of linked-read
+                    technologies are well known and have been demonstrated in many human genomic and metagenomic
+                    studies. However, existing linked-read analysis pipelines (e.g., Long Ranger) were primarily
+                    developed to process sequencing data from the human genome and are not suited for analyzing
+                    metagenomic sequencing data. Moreover, linked-read analysis pipelines are typically limited to 1
+                    specific sequencing platform.<br>
+
+                    <strong>Findings</strong><br>
+                    To address these limitations, we present the Linked-Read ToolKit (LRTK), a unified and versatile
+                    toolkit for platform agnostic processing of linked-read sequencing data from both human genome and
+                    metagenome. LRTK provides functions to perform linked-read simulation, barcode sequencing error
+                    correction, barcode-aware read alignment and metagenome assembly, reconstruction of long DNA
+                    fragments, taxonomic classification and quantification, and barcode-assisted genomic variant calling
+                    and phasing. LRTK has the ability to process multiple samples automatically and provides users with
+                    the option to generate reproducible reports during processing of raw sequencing data and at multiple
+                    checkpoints throughout downstream analysis. We applied LRTK on linked reads from simulation, mock
+                    community, and real datasets for both human genome and metagenome. We showcased LRTK’s ability to
+                    generate comparative performance results from preceding benchmark studies and to report these
+                    results in publication-ready HTML document plots.<br>
+
+                    <strong>Conclusions</strong><br>
+                    LRTK provides comprehensive and flexible modules along with an easy-to-use Python-based workflow for
+                    processing linked-read sequencing datasets, thereby filling the current gap in the field caused by
+                    platform-centric genome-specific linked-read data analysis tools.
+                </div>
+            </div>
+
+            <div class="pub-year">2023</div>
+
+            <div class="publication">
+                <div class="pub-title">
+                    <a href="#" class="paper-title">Benchmarking genome assembly methods on metagenomic sequencing
+                        data</a>
+                </div>
+                <div class="pub-authors">
+                    <strong>Zhenmiao Zhang</strong>, Chao Yang, Werner Pieter Veldsman, Xiaodong Fang, Lu Zhang
+                </div>
+                <div class="pub-venue"><em>Briefings in Bioinformatics</em> <span class="pub-links"><a
+                            href="https://academic.oup.com/bib/article-abstract/24/2/bbad087/7077274"
+                            target="_blank">[PDF]</a></span>
+                </div>
+                <button class="abstract-toggle">Abstract ▸</button>
+                <div class="abstract">
+                    Metagenome assembly is an efficient approach to reconstruct microbial genomes from metagenomic
+                    sequencing data. Although short-read sequencing has been widely used for metagenome assembly,
+                    linked- and long-read sequencing have shown their advancements in assembly by providing long-range
+                    DNA connectedness. Many metagenome assembly tools were developed to simplify the assembly graphs and
+                    resolve the repeats in microbial genomes. However, there remains no comprehensive evaluation of
+                    metagenomic sequencing technologies, and there is a lack of practical guidance on selecting the
+                    appropriate metagenome assembly tools. This paper presents a comprehensive benchmark of 19 commonly
+                    used assembly tools applied to metagenomic sequencing datasets obtained from simulation, mock
+                    communities or human gut microbiomes. These datasets were generated using mainstream sequencing
+                    platforms, such as Illumina and BGISEQ short-read sequencing, 10x Genomics linked-read sequencing,
+                    and PacBio and Oxford Nanopore long-read sequencing. The assembly tools were extensively evaluated
+                    against many criteria, which revealed that long-read assemblers generated high contig contiguity but
+                    failed to reveal some medium- and high-quality metagenome-assembled genomes (MAGs). Linked-read
+                    assemblers obtained the highest number of overall near-complete MAGs from the human gut microbiomes.
+                    Hybrid assemblers using both short- and long-read sequencing were promising methods to improve both
+                    total assembly length and the number of near-complete MAGs. This paper also discussed the running
+                    time and peak memory consumption of these assembly tools and provided practical guidance on
+                    selecting them.
+                </div>
+            </div>
+
+            <div class="pub-year">2021</div>
+
+            <div class="publication">
+                <div class="pub-title">
+                    <a href="#" class="paper-title">METAMVGL: a multi-view graph-based metagenomic contig binning
+                        algorithm by integrating assembly and paired-end graphs</a>
+                </div>
+                <div class="pub-authors">
+                    <strong>Zhenmiao Zhang</strong>, Lu Zhang
+                </div>
+                <div class="pub-venue"><em>BMC Bioinformatics</em> <span class="pub-links"><a
+                            href="https://link.springer.com/article/10.1186/s12859-021-04284-4"
+                            target="_blank">[PDF]</a></span>
+                </div>
+                <button class="abstract-toggle">Abstract ▸</button>
+                <div class="abstract">
+                    <strong>Background</strong><br>
+                    Due to the complexity of microbial communities, de novo assembly on next generation sequencing data
+                    is commonly unable to produce complete microbial genomes. Metagenome assembly binning becomes an
+                    essential step that could group the fragmented contigs into clusters to represent microbial genomes
+                    based on contigs’ nucleotide compositions and read depths. These features work well on the long
+                    contigs, but are not stable for the short ones. Contigs can be linked by sequence overlap (assembly
+                    graph) or by the paired-end reads aligned to them (PE graph), where the linked contigs have high
+                    chance to be derived from the same clusters.<br>
+
+                    <strong>Results</strong><br>
+                    We developed METAMVGL, a multi-view graph-based metagenomic contig binning algorithm by integrating
+                    both assembly and PE graphs. It could strikingly rescue the short contigs and correct the binning
+                    errors from dead ends. METAMVGL learns the two graphs’ weights automatically and predicts the contig
+                    labels in a uniform multi-view label propagation framework. In experiments, we observed METAMVGL
+                    made use of significantly more high-confidence edges from the combined graph and linked dead ends to
+                    the main graph. It also outperformed many state-of-the-art contig binning algorithms, including
+                    MaxBin2, MetaBAT2, MyCC, CONCOCT, SolidBin and GraphBin on the metagenomic sequencing data from
+                    simulation, two mock communities and Sharon infant fecal samples.<br>
+
+                    <strong>Conclusions</strong><br>
+                    Our findings demonstrate METAMVGL outstandingly improves the short contig binning and outperforms
+                    the other existing contig binning tools on the metagenomic sequencing data from simulation, mock
+                    communities and infant fecal samples.
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+            <h2>Talks</h2>
+            <ul>
+                <li>"Improve metagenomic binning by recovering short contigs using deep learning", <em>RECOMB</em> 2023
+                    (Poster)
+                </li>
+                <li>"Exploring high-quality microbial genomes by assembly of linked-reads with high barcode specificity
+                    using deep learning", <em>RECOMB-SEQ</em> 2023</li>
+                <li>"METAMVGL: a multi-view graph-based metagenomic contig binning algorithm by integrating assembly and
+                    paired-end graphs", <em>APBC</em> 2021</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Academic Services</h2>
+            <ul>
+                <li>Reviewer for <em>Microbiome</em>, <em>NAR Genomics and Bioinformatics</em>, <em>Scientific
+                        reports</em>, <em>BMC Methods</em>, <em>BIBM</em>, and <em>ISBRA</em>
+                </li>
+                <li>Program committee member, <em>BIBM</em> 2025</li>
+                <li>Program committee member, <em>BIBM workshop Algorithmic Advances for Single-Cell and Spatial Omics
+                        Data
+                        Analysis</em> 2025</li>
+                <li>Program committee member, <em>BIBM Workshop Computational methods to characterize genomic variants
+                        using
+                        high-throughput sequencing data</em> 2022</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Awards</h2>
+            <ul>
+                <li> <a href="https://cse.ucsd.edu/research/uc-san-diego-cse-fellows-program" target="_blank">UCSD CSE
+                        Fellows Program 2025</a></li>
+                <li>Excellent Teaching Assistant Performance Award (COMP1007 Python) 2023</li>
+                <li>Excellent Teaching Assistant Performance Award (COMP1007 Python) 2021</li>
+                <li>Excellent Teaching Assistant Performance Award (COMP1007 Python) 2020</li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
